@@ -1,5 +1,6 @@
 header {
   background-color: #e24647;
+  overflow: hidden;
 }
 
 h1,
@@ -10,13 +11,15 @@ a {
 h1 {
   font-size: 40px;
   font-family: ArialMT;
+  float: left;
 }
 
 a {
   font-size: 21px;
   font-family: SegoeUI;
+  text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+nav {
+  float: right;
 }
