@@ -42,3 +42,13 @@ a {
 nav {
   float: right;
 }
+
+button {
+  background-color: #252c41;
+  color: #ffffff;
+  width: 200px;
+  height: 60px;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+  border: 0;
+}
