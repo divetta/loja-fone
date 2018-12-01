@@ -1,0 +1,37 @@
+.dl-store {
+  color: #fff;
+  text-align: left;
+  font-family: Arial, "Roboto", sans-serif;
+  margin-top: 154px;
+}
+
+.dt-store {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.dd-store {
+  font-size: 20px;
+}
+
+.dd-store.-score {
+  margin-top: 99px;
+}
+
+.dd-store.-price {
+  margin-top: 28px;
+  text-transform: uppercase;
+}
+
+.dd-store.-description {
+  font-size: 18px;
+  margin-top: 73px;
+  margin-bottom: 40px;
+}
+
+.dd-store.-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 98px;
+}

@@ -1,5 +1,6 @@
 .button-store {
   display: inline-block;
+  box-sizing: border-box;
   background-color: #252c41;
   font-size: 20px;
   color: #fff;
@@ -9,4 +10,12 @@
   text-align: center;
   line-height: 60px;
   text-decoration: none;
+  border: none;
+}
+
+.button-store.-second {
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: 218px;
+  line-height: 56px;
 }
