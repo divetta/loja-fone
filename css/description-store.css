@@ -1,8 +1,25 @@
+.product-image-container {
+  display: inline-block;
+  width: 50%;
+}
+
+.product-image-source {
+  margin-left: 105px;
+  background-color: #fff;
+}
+
+.product-description {
+  /* float: right; */
+  display: inline-block;
+  /* width: 50%; */
+}
+
 .dl-store {
   color: #fff;
   text-align: left;
   font-family: Arial, "Roboto", sans-serif;
-  margin-top: 154px;
+  margin-top: 140px;
+  display: inline-block;
 }
 
 .dt-store {
@@ -25,8 +42,10 @@
 
 .dd-store.-description {
   font-size: 18px;
+  line-height: 30px;
   margin-top: 73px;
   margin-bottom: 40px;
+  width: 553px;
 }
 
 .dd-store.-link {
