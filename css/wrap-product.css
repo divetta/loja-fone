@@ -2,4 +2,11 @@
   display: inline-block;
   width: 554px;
   vertical-align: middle;
+  margin-bottom: 68px;
+}
+
+.wrap-button {
+  width: 547px;
+  display: inline-block;
+  margin-right: 157px;
 }
