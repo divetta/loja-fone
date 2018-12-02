@@ -18,6 +18,23 @@
   float: right;
 }
 
+.header-store .search {
+  background-color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  width: 358px;
+  margin-right: 60px;
+  border: 0;
+  border-bottom: solid 1px;
+}
+
+.Rectangle-3 {
+  width: 358px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
 .header-store .action {
   text-decoration: none;
   color: inherit;
