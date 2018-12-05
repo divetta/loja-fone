@@ -3,10 +3,11 @@
   width: 554px;
   vertical-align: middle;
   margin-bottom: 68px;
+  position: relative;
 }
 
-.wrap-button {
-  width: 547px;
-  display: inline-block;
-  margin-right: 157px;
+.wrap-product > .buttons {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(calc(100% + 98px));
 }

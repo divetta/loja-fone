@@ -18,15 +18,16 @@
   float: right;
 }
 
-.header-store .search {
+.header-store input[type="search"] {
   background-color: inherit;
-  font-size: inherit;
+  font-size: 20px;
   font-family: inherit;
   color: inherit;
   width: 358px;
-  margin-right: 60px;
-  border: 0;
+  margin-right: 65px;
+  border: none;
   border-bottom: solid 1px;
+  padding: 8px;
 }
 
 .header-store .action {
