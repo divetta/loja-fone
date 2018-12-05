@@ -23,6 +23,7 @@
 
 .description-product > .item > .star {
   margin-right: 9px;
+  cursor: pointer;
 }
 
 .description-product > .item > .star.-last {
