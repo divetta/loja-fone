@@ -11,3 +11,10 @@
   bottom: 0;
   transform: translateY(calc(100% + 98px));
 }
+
+.wrap-product > .photo-like {
+  position: absolute;
+  left: -47px;
+  top: 9px;
+  transform: translateX(-100%);
+}
