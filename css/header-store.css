@@ -17,6 +17,7 @@
   font-size: 21px;
   font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
+  position: relative;
 }
 
 .header-store input[type="search"] {
@@ -36,13 +37,31 @@
   color: inherit;
   margin-right: 60px;
   transition: all 300ms linear;
+  position: relative;
 }
 
-.header-store .action:hover {
+.header-store .action::after {
+  content: "";
+  position: absolute;
+  transform: translateY(100%);
+  bottom: -8px;
+  left: 0px;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+
+.header-store .action:hover:after {
+  background-color: #fff;
+  width: 100%;
+}
+
+/* .header-store .action:hover {
   border: none;
   border-bottom: solid 1px;
   padding-bottom: 8px;
-}
+} */
 
 .header-store .action.-last {
   margin-right: 0;
