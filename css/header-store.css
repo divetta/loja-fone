@@ -35,6 +35,13 @@
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
+  transition: all 300ms linear;
+}
+
+.header-store .action:hover {
+  border: none;
+  border-bottom: solid 1px;
+  padding-bottom: 8px;
 }
 
 .header-store .action.-last {
