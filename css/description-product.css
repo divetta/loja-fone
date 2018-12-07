@@ -34,17 +34,17 @@
   margin-left: 7px;
 }
 
-.description-product > .item > .star {
+.description-product .icon {
   margin-right: 9px;
   cursor: pointer;
-  transition: 300ms linear;
+  transition: 100ms linear;
 }
 
-.description-product > .item > .star:hover {
-  transform: scale(1.1);
+.description-product .icon:hover {
+  transform: scale(1.2);
 }
 
-.description-product > .item > .star.-last {
+.description-product .icon.-last {
   margin-right: 0px;
 }
 

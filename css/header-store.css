@@ -40,7 +40,7 @@
   position: relative;
 }
 
-.header-store .action::after {
+.header-store .action:after {
   content: "";
   position: absolute;
   transform: translateY(100%);
