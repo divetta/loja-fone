@@ -48,3 +48,56 @@
   text-decoration: inherit;
   border: none;
 }
+
+@media (max-width: 1183px) {
+  .button-store {
+    font-size: 18px;
+    width: 150px;
+  }
+
+  .button-store.-second {
+    font-size: 18px;
+    width: 188px;
+  }
+}
+
+@media (max-width: 826px) {
+  .button-store {
+    font-size: 16px;
+    width: 140px;
+  }
+
+  .button-store.-second {
+    width: 188px;
+    margin-right: 18px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 796px) {
+  .button-store {
+    width: 140px;
+  }
+
+  .button-store.-second {
+    width: 168px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 761px) {
+  .button-store.-second {
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 741px) {
+  .button-store {
+    width: 115px;
+  }
+
+  .button-store.-second {
+    width: 166px;
+    margin-right: 18px;
+  }
+}

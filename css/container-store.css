@@ -8,20 +8,67 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
 }
 
-@media (max-width: 1470px), (max-height: 952px) {
+@media (max-width: 1464px), (max-height: 952px) {
   .container-store {
     position: static;
     transform: none;
-    width: 100%;
-    max-width: 100%;
+    width: 91%;
+    max-width: 91%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (max-height: 952px) {
   .container-store {
-    max-width: 1330px;
+    max-width: 1318px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1448px), (max-height: 952px) {
+  .container-store {
+    position: static;
+    transform: none;
+    width: 92%;
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1432px), (max-height: 952px) {
+  .container-store {
+    position: static;
+    transform: none;
+    width: 94%;
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1402px), (max-height: 952px) {
+  .container-store {
+    position: static;
+    transform: none;
+    width: 96%;
+    max-width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1372px), (max-height: 952px) {
+  .container-store {
+    position: static;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
