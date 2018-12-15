@@ -15,37 +15,27 @@
 
 .description-product > .item.-heart {
   position: absolute;
-  left: -47px;
-  top: 9px;
   transform: translateX(-100%);
+  top: 8px;
+  left: -47px;
   cursor: pointer;
-  transition: 300ms linear;
-}
-
-.description-product > .item.-heart > .heart:hover {
-  transform: scale(1.1);
-}
-
-.description-product > .item.-star {
-  margin-bottom: 10px;
-}
-
-.description-product > .item.-star + .item {
-  margin-left: 7px;
 }
 
 .description-product .icon {
-  margin-right: 9px;
-  cursor: pointer;
-  transition: 100ms linear;
+  transition: transform 100ms linear;
 }
 
 .description-product .icon:hover {
   transform: scale(1.2);
 }
 
-.description-product .icon.-last {
-  margin-right: 0px;
+.description-product > .item.-star {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.description-product > .item.-star + .item {
+  margin-left: 7px;
 }
 
 .description-product > .item.-info {
@@ -77,55 +67,31 @@
   text-decoration: none;
 }
 
-@media (max-width: 1183px) {
-  .description-product > .item {
-    font-size: 18px;
+@media (max-width: 1310px) {
+  .description-product {
+    width: 50%;
+    min-width: 655px;
+    margin: 0 auto 60px;
   }
 
-  .description-product > .text {
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 18px;
-  }
-}
-
-@media (max-width: 1086px) {
-  .description-product > .item.-heart {
-    display: none;
-  }
-}
-
-@media (max-width: 1036px) {
   .description-product > .title {
-    font-size: 22px;
+    font-size: 35px;
+    text-align: center;
   }
 
-  .description-product > .item.-info {
-    width: 150px;
+  .description-product > .item.-star {
+    float: left;
+    margin-right: 10px;
   }
 
-  .description-product > .item.-last {
-    margin-bottom: 52px;
-  }
-
-  .description-product > .item {
-    font-size: 16px;
+  .description-product > .item.-number {
+    padding-top: 4px;
   }
 }
 
-@media (max-width: 816px) {
-  .description-product > .item {
-    margin-bottom: 13px;
-  }
-
-  .description-product > .item.-last {
-    margin-bottom: 42px;
-  }
-}
-
-@media (max-width: 786px) {
-  .description-product > .title {
-    font-size: 25px;
-    margin-bottom: 23px;
+@media (max-width: 720px) {
+  .description-product {
+    width: 90%;
+    min-width: auto;
   }
 }
