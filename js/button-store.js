@@ -1,3 +1,7 @@
 const $buttonAddTocart = window.document.querySelector(".-second");
 
-console.log($buttonAddTocart);
+$buttonAddTocart.addEventListener("click", handleClick);
+
+function handleClick() {
+  console.log("aew");
+}
