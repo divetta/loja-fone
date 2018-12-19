@@ -13,12 +13,14 @@ function handleClick() {
 // Tratamento das estrelas
 const $stars = document.querySelectorAll(".-star > img.icon");
 
-$stars.forEach($star => {
+$stars.forEach(($star, index_selected) => {
   $star.addEventListener("click", function() {
-    if ($star.classList.toggle("-active")) {
-      $star.src = "/img/star-active.png";
-    } else {
-      $star.src = "/img/star.png";
-    }
+    $stars.forEach((star, index) => {
+      if (index_selected >= index) {
+        star.src = "/img/star-active.png";
+      } else {
+        star.src = "/img/star.png";
+      }
+    });
   });
 });
