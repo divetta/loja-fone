@@ -19,11 +19,12 @@
   top: 8px;
   left: -47px;
   cursor: pointer;
+  width: 33px;
   height: 29px;
 }
 
 .description-product > .item.-active {
-  background-color: #fff;
+  background-color: #252c41;
 }
 
 .description-product .icon {
@@ -32,6 +33,30 @@
 
 .description-product .icon:hover {
   transform: scale(1.2);
+}
+
+.description-product .icon.-active {
+  display: none;
+}
+
+.description-product > .item.-active .icon {
+  display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+  display: block;
+}
+
+.description-product .star {
+  display: inline-block;
+}
+
+.description-product .star.-active > .icon {
+  display: none;
+}
+
+.description-product .star.-active > .-active {
+  display: block;
 }
 
 .description-product > .item.-star {
