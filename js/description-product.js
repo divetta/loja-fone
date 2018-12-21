@@ -9,14 +9,18 @@ function handleClick() {
 // Tratamento das estrelas
 const $stars = document.querySelectorAll(".star");
 
-$stars.forEach(($star, index_selected) => {
+$stars.forEach(($star, index) => {
   $star.addEventListener("click", function() {
-    $stars.forEach((star, index) => {
-      if (index_selected >= index) {
-        star.classList.add("-active");
-      } else {
-        star.classList.remove("-active");
-      }
-    });
+    handleClickStar(index);
   });
 });
+
+function handleClickStar(index_selected) {
+  $stars.forEach((star, index) => {
+    if (index_selected >= index) {
+      star.classList.add("-active");
+    } else {
+      star.classList.remove("-active");
+    }
+  });
+}
