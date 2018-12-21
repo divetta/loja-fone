@@ -117,6 +117,12 @@
   .description-product > .item.-number {
     padding-top: 4px;
   }
+
+  .description-product > .item.-heart {
+    transform: translateX(755%);
+    top: auto;
+    left: auto;
+  }
 }
 
 @media (max-width: 720px) {
