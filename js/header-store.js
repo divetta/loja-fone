@@ -1,6 +1,5 @@
-const $magnifier = document.querySelector(".magnifier");
+const $search = document.querySelector(".search");
 
-$magnifier.addEventListener("click", () => {
-  const $search = document.querySelector(".search");
+$search.addEventListener("click", () => {
   $search.classList.toggle("-active");
 });
