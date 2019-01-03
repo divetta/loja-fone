@@ -46,6 +46,12 @@
   display: none;
 }
 
+.header-store .close {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
 .header-store .action {
   display: inline-block;
   text-decoration: none;
@@ -113,11 +119,19 @@
     display: inline-block;
   }
 
+  .header-store .magnifier.-active {
+    display: none;
+  }
+
+  .header-store .close.-active {
+    display: inline-block;
+  }
+
   .header-store .search {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateX(-82%);
+    transform: translateX(-90%);
     transition: transform 200ms linear;
   }
 
