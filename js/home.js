@@ -5,7 +5,6 @@ const $second = document.querySelector(".-second");
 $second.addEventListener("click", handleClick);
 
 function handleClick() {
-  $carrinho = document.querySelector("a.-last");
-
+  const $carrinho = document.querySelector(".action.-last");
   $carrinho.textContent = `Carrinho (${++valorInicial})`;
 }
